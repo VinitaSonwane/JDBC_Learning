@@ -47,8 +47,8 @@ public class Main{
         String url = "jdbc:mysql://localhost:3306/Students";
 
         //Database credentials
-        String username = "root";
-        String password = "Vinita@123";
+        String username = "Username";
+        String password = "Password";
 
         //Establish the connection
         try(Connection connection = DriverManager.getConnection(url,username , password)){
